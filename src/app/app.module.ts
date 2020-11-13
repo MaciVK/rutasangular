@@ -9,6 +9,9 @@ import { HomeComponent } from './components/rutas/home/home.component';
 import { MusicaComponent } from './components/rutas/musica/musica.component';
 import { TelevisionComponent } from './components/rutas/television/television.component';
 import { routing, appRoutingProviders } from './app.routing';
+import { MenuComponent } from './components/rutas/menu/menu.component';
+import { Error404Component } from './components/rutas/error404/error404.component';
+import { NumeroDobleComponent } from './components/numerodoble/numerodoble.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +21,9 @@ import { routing, appRoutingProviders } from './app.routing';
     HomeComponent,
     MusicaComponent,
     TelevisionComponent,
+    MenuComponent,
+    Error404Component,
+    NumeroDobleComponent,
   ],
   imports: [BrowserModule, FormsModule, routing],
   providers: [appRoutingProviders],
